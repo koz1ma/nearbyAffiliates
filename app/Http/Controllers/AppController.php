@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class AppController extends Controller
 {
-    private $path = '../storage/app/';
-    //private $path = '/app/storage/app/';
+    //private $path = '../storage/app/';
+    private $path = '/app/storage/app/';
     private $officeLocation = [53.3340285, -6.2535495];
 
     //main function to get nearby affiliates from file
